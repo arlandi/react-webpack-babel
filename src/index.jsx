@@ -7,7 +7,7 @@ ReactDOM.render(
   <AppContainer>
     <App/>
   </AppContainer>,
-  document.getElementById('app')
+  document.getElementById('lead-gen-ui')
 );
 
 // Hot Module Replacement API
