@@ -1,2 +1,10 @@
-@import 'main';
-@import 'common/button'
+body {
+  background: #ece7e7;
+}
+
+.redBg {
+  background-color: green;
+  border-radius: 51px;
+  color: white;
+  padding: 5px;
+}
