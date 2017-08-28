@@ -1,6 +1,52 @@
-.redBg {
-  background-color: green;
-  border-radius: 51px;
-  color: white;
-  padding: 5px;
+html {
+  font-size: 14px;
+}
+
+.ui-container {
+  color: rgba(0, 0, 0, 0.87);
+  font-family: 'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-smoothing: antialiased;
+  line-height: 1.4285em;
+  padding: 20px 20px 20px 0;
+}
+
+// Semantic UI
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic&subset=latin');
+@import '~semantic-ui-css/components/reset';
+@import './base';
+@import '~semantic-ui-css/components/button';
+@import '~semantic-ui-css/components/header';
+@import '~semantic-ui-css/components/input';
+@import '~semantic-ui-css/components/label';
+@import '~semantic-ui-css/components/divider';
+@import '~semantic-ui-css/components/grid';
+@import '~semantic-ui-css/components/form';
+@import '~semantic-ui-css/components/dropdown';
+@import '~semantic-ui-css/components/menu';
+@import '~semantic-ui-css/components/card';
+@import '~semantic-ui-css/components/item';
+@import '~semantic-ui-css/components/checkbox';
+@import '~semantic-ui-css/components/loader';
+@import '~semantic-ui-css/components/tab';
+@import '~semantic-ui-css/components/transition';
+@import '~semantic-ui-css/components/segment';
+
+.lead-gen-container {
+  .lead-gen-settings {
+    .menu {
+      padding: 0;
+    }
+
+    .button {
+      height: auto;
+    }
+  }
+
+  .section-select {
+    margin-bottom: 20px;
+  }
+
+  .ui.grid {
+    margin-top: 0;
+  }
 }

@@ -20,7 +20,7 @@ module.exports = {
     'react-hot-loader/patch',
     './src/index.jsx', // your app's entry point
   ],
-  devtool: process.env.WEBPACK_DEVTOOL || 'eval-source-map',
+  devtool: false,
   output: {
     publicPath: '/',
     path: path.join(__dirname, 'public'),
